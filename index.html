@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Tic-tac-toe</h1>
+        <p><span id="player-turn"></span>'s turn</p>
+      </header>
+      <main id="gameboard">
+        <div class="line r r-1"></div>
+        <div class="line r r-2"></div>
+        <div class="line c c-1"></div>
+        <div class="line c c-2"></div>
+      </main>
+      <div id="num-of-players">
+        <p>One Player</p>
+        <div id="toggle-switch">
+          <div id="toggle-btn"></div>
+        </div>
+        <p>Two Player</p>
+      </div>
+      <div id="gameover-msg">
+        <h3 id="winner"></h3>
+        <button id="reset-btn">New Game</button>
+      </div>
+      <script src="script.js"></script>
+
+  </body>
+</html>
